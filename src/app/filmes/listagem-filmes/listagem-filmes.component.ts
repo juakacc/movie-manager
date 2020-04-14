@@ -4,6 +4,7 @@ import { FilmesService } from "src/app/core/filmes.service";
 import { Filme } from "src/app/shared/models/filme";
 import { FormGroup, FormBuilder } from "@angular/forms";
 import { ConfigParams } from "src/app/shared/models/config-params";
+import { Router } from "@angular/router";
 
 @Component({
   selector: "dio-listagem-filmes",
@@ -23,7 +24,11 @@ export class ListagemFilmesComponent implements OnInit {
   filtrosListagem: FormGroup;
   generos: String[];
 
-  constructor(private filmesService: FilmesService, private fb: FormBuilder) {}
+  constructor(
+    private filmesService: FilmesService,
+    private fb: FormBuilder,
+    private router: Router
+  ) {}
 
   ngOnInit() {
     this.filtrosListagem = this.fb.group({
@@ -64,7 +69,7 @@ export class ListagemFilmesComponent implements OnInit {
   }
 
   open(id: number): void {
-    console.log(id);
+    this.router.navigateByUrl("/filmes/" + id);
   }
 
   private getFilmes(): void {

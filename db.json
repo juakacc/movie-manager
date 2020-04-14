@@ -18,37 +18,7 @@
       "nota": 0,
       "urlIMDb": "",
       "genero": "Comédia",
-      "id": 2
-    },
-    {
-      "titulo": "Teste",
-      "urlFoto": "",
-      "dtLancamento": "2020-04-14T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Comédia",
       "id": 3
-    },
-    {
-      "titulo": "Teste",
-      "urlFoto": "",
-      "dtLancamento": "2020-04-09T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Comédia",
-      "id": 4
-    },
-    {
-      "titulo": "Teste",
-      "urlFoto": "",
-      "dtLancamento": "2020-04-02T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Comédia",
-      "id": 5
     },
     {
       "titulo": "Teste",
@@ -59,56 +29,6 @@
       "urlIMDb": "",
       "genero": "Aventura",
       "id": 6
-    },
-    {
-      "titulo": "Teste",
-      "urlFoto": "",
-      "dtLancamento": "2020-04-07T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Aventura",
-      "id": 7
-    },
-    {
-      "titulo": "Teste",
-      "urlFoto": "",
-      "dtLancamento": "2020-04-17T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Comédia",
-      "id": 8
-    },
-    {
-      "titulo": "Teste",
-      "urlFoto": null,
-      "dtLancamento": "2020-04-17T03:00:00.000Z",
-      "descricao": null,
-      "nota": 8,
-      "urlIMDb": null,
-      "genero": "Ficção cientifíca",
-      "id": 9
-    },
-    {
-      "titulo": "Teste sem descricao e foto",
-      "urlFoto": "",
-      "dtLancamento": "2020-04-15T03:00:00.000Z",
-      "descricao": "",
-      "nota": 10,
-      "urlIMDb": "",
-      "genero": "Ficção cientifíca",
-      "id": 10
-    },
-    {
-      "titulo": "Teste com pula linha",
-      "urlFoto": "",
-      "dtLancamento": "2020-04-14T03:00:00.000Z",
-      "descricao": "Teste\nteste\nteset\n",
-      "nota": 10,
-      "urlIMDb": "",
-      "genero": "Ficção cientifíca",
-      "id": 11
     }
   ],
   "profile": {
