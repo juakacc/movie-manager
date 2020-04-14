@@ -89,6 +89,26 @@
       "urlIMDb": null,
       "genero": "Ficção cientifíca",
       "id": 9
+    },
+    {
+      "titulo": "Teste sem descricao e foto",
+      "urlFoto": "",
+      "dtLancamento": "2020-04-15T03:00:00.000Z",
+      "descricao": "",
+      "nota": 10,
+      "urlIMDb": "",
+      "genero": "Ficção cientifíca",
+      "id": 10
+    },
+    {
+      "titulo": "Teste com pula linha",
+      "urlFoto": "",
+      "dtLancamento": "2020-04-14T03:00:00.000Z",
+      "descricao": "Teste\nteste\nteset\n",
+      "nota": 10,
+      "urlIMDb": "",
+      "genero": "Ficção cientifíca",
+      "id": 11
     }
   ],
   "profile": {
