@@ -6,7 +6,7 @@ O curso consiste em um sistema de filmes, com a possibilidade de cadastros, edi�
 
 ## Instalação
 
-1. clone o repositório `git clone git@github.com:RenanRB/curso-angular.git`
+1. clone o repositório `git clone git@github.com:juakacc/movie-manager.git`
 2. Entre no projeto e instale as dependencias `npm install`
 
 ## Ambiente Local
@@ -24,4 +24,3 @@ Execute `ng generate component nome-do-componente` para criar um novo componente
 ## Build
 
 Execute `ng build` para gerar o compilado do projeto. O projeto vai ser criado dentro do diretório `dist/`. Adicionar `--prod` junto comando de build para gerar minificado e pronto para o ambiente de produção.
-

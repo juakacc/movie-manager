@@ -1,19 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
+import { FilmesService } from "src/app/core/filmes.service";
+import { Filme } from "src/app/shared/models/filme";
 
 @Component({
-  selector: 'dio-listagem-filmes',
-  templateUrl: './listagem-filmes.component.html',
-  styleUrls: ['./listagem-filmes.component.scss']
+  selector: "dio-listagem-filmes",
+  templateUrl: "./listagem-filmes.component.html",
+  styleUrls: ["./listagem-filmes.component.scss"],
 })
 export class ListagemFilmesComponent implements OnInit {
+  filmes: Filme[];
 
-  constructor() { }
+  constructor(private filmesService: FilmesService) {}
 
   ngOnInit() {
-
+    this.filmesService.listar().subscribe((filmes: Filme[]) => {
+      this.filmes = filmes;
+    });
   }
 
-  open() {
-  }
-
+  open() {}
 }
